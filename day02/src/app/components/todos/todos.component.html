@@ -1,0 +1,26 @@
+<div class="bg-dark p-5 text-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9">
+        <input
+          name="todosData"
+          type="text"
+          class="form-control"
+          [(ngModel)]="inputValue"
+          placeholder="Enter Your Data"
+        />
+      </div>
+      <div class="col-sm-3">
+        <button class="btn btn-outline-success" (click)="add()">+</button>
+      </div>
+    </div>
+    <div class="row mt-4" *ngFor="let todo of todosList">
+      <div class="col-sm-9">
+        <p class="bg-secondary p-2 rounded">{{ todo }}</p>
+      </div>
+      <div class="col-sm-3">
+        <button class="btn btn-outline-danger">-</button>
+      </div>
+    </div>
+  </div>
+</div>

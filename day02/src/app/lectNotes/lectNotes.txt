@@ -1,0 +1,34 @@
+component Interactions
+== One Way binding
+    -- interpolation
+    -- attribute binding
+
+
+== Two Way Binding
+    -- Event Binding    
+    -- Normal Way
+    -- FormsModules
+
+
+== set reference in any element in template
+== ViewChild
+
+== Directives
+    -- Structural Directives
+        --*ngFor
+        --*ngSwitch
+        --ngIf
+
+== ng-container
+
+    -- Attribute Directives
+        [class.className]
+        [ngClass]
+        [style.propName]
+        [ngStyle]
+
+    -- Component Directives
+==================== Tasks ======================
+    --- Simple Slider
+    --  TodosList
+    --  Login Form
