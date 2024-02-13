@@ -1,0 +1,18 @@
+Directives
+    -- attribute Directives
+        [Class.className][ngClass]
+        [style.propName][ngStyle]
+    -- component Directives 
+
+== Component Interactions
+    -- Pass Data From Parent to Child
+        == go to child component and define var from the same type of data which you want to send
+        == Bind Var from parent component
+    -- pass data from child to parent
+    -- pass Data From Child to child
+
+
+== Angular LifeCycle
+
+/*Pending*/
+[Reactive Forms]

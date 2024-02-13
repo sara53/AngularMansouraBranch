@@ -1,0 +1,7 @@
+<!-- <app-check-attribute-dir></app-check-attribute-dir> -->
+<div class="bg-light p-3 text-center">
+  <h2>Welcome From App Component</h2>
+  <app-login [myLoginVar]="appComponentData" [containerData]="test"></app-login>
+  <app-content (myEvent)="getData($event)"></app-content>
+  <h1 class="bg-danger p-3">Data From Content is : {{ test }}</h1>
+</div>
